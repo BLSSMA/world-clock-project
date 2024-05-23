@@ -67,3 +67,7 @@ select{
 footer{
     text-align: center;
 }
+a{
+    text-decoration: none;
+    color:rgb(121, 121, 121);
+}
