@@ -1,5 +1,67 @@
+body{
+    background-color: lavender;
+}
+.container{
+    max-width: 600px;
+    background-color: white;
+    display:block;
+    margin:20px auto;
+    padding:30px;
+    border-radius: 5px;
+    box-shadow: 12px 12px 12px 1px rgba(0, 0, 0, 0.05);
+}
+
 h1{
     text-align: center;
+    padding:0;
+    margin:0,0,10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 10px;
+        font-style: normal;
+    
+}
+
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:5px 0;
+    font-size: 28px;
+}
+
+select{
+    width:80%;
+    display:block;
+    margin:0 auto;
+    padding:4px;
+    font-size:15px;
+    border-radius:4px;
+    color:rgb(0, 0, 0, 0.5);
+}
+
+.date{
+    opacity:0.5;
+}
+
+.city{
+    display:flex;
+    justify-content: space-between;
+    margin:30px 0;
+    padding:14px;
+    border-bottom: 1px dashed rgb(0, 0, 0, 0.2);
+}
+
+.city:last-child{
+    border: none;
+}
+
+.time{
+    font-size: 50px;
+    font-weight:bold;
+}
+.ampm{
+    font-size: 15px;
+    line-height:36px;
+    vertical-align: middle;
 }
 
 footer{
