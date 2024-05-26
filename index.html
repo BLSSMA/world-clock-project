@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock Project</title>
   </head>
 
@@ -26,12 +27,20 @@
         <option value="tokyo">Tokyo</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="losangeles">
         <div>
           <h2>Los Angeles</h2>
-          <div class="date">august 15th, 2022</div>
+          <div class="date" id="date"></div>
         </div>
-        <div class="time">03:45:23 <span class="ampm">pm</span></div>
+        <div class="time" id="time"><small></small></div>
+      </div>
+
+      <div class="city" id="paris">
+        <div>
+          <h2>Paris</h2>
+          <div class="date"></div>
+        </div>
+        <div class="time"><small></small></div>
       </div>
     </div>
 

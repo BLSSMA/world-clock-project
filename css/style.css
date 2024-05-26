@@ -45,7 +45,7 @@ select{
 .city{
     display:flex;
     justify-content: space-between;
-    margin:30px 0;
+    margin:40px, 50px;
     padding:14px;
     border-bottom: 1px dashed rgb(0, 0, 0, 0.2);
 }
@@ -58,7 +58,7 @@ select{
     font-size: 50px;
     font-weight:bold;
 }
-.ampm{
+small{
     font-size: 15px;
     line-height:36px;
     vertical-align: middle;
